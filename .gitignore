@@ -39,3 +39,16 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Atende AI: arquivos de execucao local
+/.atende-runtime/
+
+# Atende AI: pacotes dos launchers
+/ATENDE-AI-LAUNCHER-*.zip
+/ATENDE-AI-LAUNCHER-*/
+
+# Python: ambientes virtuais e cache
+/.venv/
+/venv/
+__pycache__/
+*.py[cod]
